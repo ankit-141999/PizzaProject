@@ -42,6 +42,6 @@ public class Pizza {
 
     @Override
     public String toString() {
-        String.format("%-15s\t₹%.2f\t%d", this.name, this.price, this.sizeInInches);
+        return String.format("%-15s\t₹%.2f\t%d", this.name, this.price, this.sizeInInches);
     }
 }

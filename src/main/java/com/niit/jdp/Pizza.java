@@ -15,4 +15,28 @@ public class Pizza {
         this.price = price;
         this.sizeInInches = sizeInInches;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public int getSizeInInches() {
+        return sizeInInches;
+    }
+
+    public void setSizeInInches(int sizeInInches) {
+        this.sizeInInches = sizeInInches;
+    }
 }

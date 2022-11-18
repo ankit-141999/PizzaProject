@@ -33,7 +33,10 @@ public class PizzaShop {
     }
 
     private void initializePizzaMenu() {
-
+        for (int counter = 0; counter < 10; counter++) {
+            Pizza pizza = generateRandomPizzaObject();
+            addPizzaToMenu(pizza);
+        }
     }
 
 }

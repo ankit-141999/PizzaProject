@@ -29,8 +29,7 @@ public class PizzaShop {
         String name = "Pizza" + random.nextInt(100);
         double price = random.nextDouble(300, 1000);
         int sizeInInches = random.nextInt(7, 15);
-        Pizza pizza = new Pizza(name, price, sizeInInches);
-        return pizza;
+        return new Pizza(name, price, sizeInInches);
     }
 
     private void initializePizzaMenu() {

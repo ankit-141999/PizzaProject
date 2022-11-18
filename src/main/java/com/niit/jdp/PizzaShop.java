@@ -13,6 +13,7 @@ public class PizzaShop {
 
     public PizzaShop() {
         pizzaMenu = new HashSet<>();
+        initializePizzaMenu();
     }
 
     public boolean addPizzaToMenu(Pizza pizza) {

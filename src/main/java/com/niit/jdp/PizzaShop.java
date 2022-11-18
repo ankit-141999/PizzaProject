@@ -39,4 +39,9 @@ public class PizzaShop {
         }
     }
 
+    public void displayPizzaMenu() {
+        for (Pizza menu : pizzaMenu) {
+            System.out.println(menu);
+        }
+    }
 }

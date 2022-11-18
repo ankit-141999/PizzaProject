@@ -16,8 +16,8 @@ public class PizzaShop {
         initializePizzaMenu();
     }
 
-    public boolean addPizzaToMenu(Pizza pizza) {
-        return pizzaMenu.add(pizza);
+    public void addPizzaToMenu(Pizza pizza) {
+        pizzaMenu.add(pizza);
     }
 
     public boolean removePizzaFromMenu(Pizza pizza) {

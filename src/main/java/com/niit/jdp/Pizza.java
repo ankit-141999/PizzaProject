@@ -39,4 +39,9 @@ public class Pizza {
     public void setSizeInInches(int sizeInInches) {
         this.sizeInInches = sizeInInches;
     }
+
+    @Override
+    public String toString() {
+        String.format("%-15s\t₹%.2f\t%d", this.name, this.price, this.sizeInInches);
+    }
 }

@@ -18,6 +18,10 @@ public class PizzaShop {
         return pizzaMenu.add(pizza);
     }
 
+    public boolean removePizzaFromMenu(Pizza pizza) {
+        return pizzaMenu.remove(pizza);
+    }
+
     private void initializePizzaMenu() {
 
     }
